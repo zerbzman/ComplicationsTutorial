@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEFEAF4F1C13C4A700D2A73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAF4E1C13C4A700D2A73A /* AppDelegate.swift */; };
+		BEFEAF511C13C4A700D2A73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAF501C13C4A700D2A73A /* ViewController.swift */; };
+		BEFEAF541C13C4A700D2A73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF521C13C4A700D2A73A /* Main.storyboard */; };
+		BEFEAF561C13C4A700D2A73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF551C13C4A700D2A73A /* Assets.xcassets */; };
+		BEFEAF591C13C4A700D2A73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF571C13C4A700D2A73A /* LaunchScreen.storyboard */; };
+		BEFEAF5E1C13C4A700D2A73A /* tinyWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEFEAF5D1C13C4A700D2A73A /* tinyWatch WatchKit App.app */; };
+		BEFEAF641C13C4A700D2A73A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF621C13C4A700D2A73A /* Interface.storyboard */; };
+		BEFEAF661C13C4A700D2A73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF651C13C4A700D2A73A /* Assets.xcassets */; };
+		BEFEAF6D1C13C4A700D2A73A /* tinyWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BEFEAF6C1C13C4A700D2A73A /* tinyWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEFEAF721C13C4A700D2A73A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAF711C13C4A700D2A73A /* InterfaceController.swift */; };
+		BEFEAF741C13C4A700D2A73A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAF731C13C4A700D2A73A /* ExtensionDelegate.swift */; };
+		BEFEAF761C13C4A700D2A73A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAF751C13C4A700D2A73A /* ComplicationController.swift */; };
+		BEFEAF781C13C4A700D2A73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF771C13C4A700D2A73A /* Assets.xcassets */; };
+		BEFEAF8A1C13CE6D00D2A73A /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAF891C13CE6D00D2A73A /* cross.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEFEAF5F1C13C4A700D2A73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEFEAF431C13C4A700D2A73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFEAF5C1C13C4A700D2A73A;
+			remoteInfo = "tinyWatch WatchKit App";
+		};
+		BEFEAF6E1C13C4A700D2A73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEFEAF431C13C4A700D2A73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFEAF6B1C13C4A700D2A73A;
+			remoteInfo = "tinyWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEFEAF7F1C13C4A700D2A73A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BEFEAF6D1C13C4A700D2A73A /* tinyWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFEAF831C13C4A700D2A73A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BEFEAF5E1C13C4A700D2A73A /* tinyWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEFEAF4B1C13C4A700D2A73A /* tinyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFEAF4E1C13C4A700D2A73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEFEAF501C13C4A700D2A73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEFEAF531C13C4A700D2A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEFEAF551C13C4A700D2A73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEFEAF581C13C4A700D2A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEFEAF5A1C13C4A700D2A73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFEAF5D1C13C4A700D2A73A /* tinyWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinyWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFEAF631C13C4A700D2A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BEFEAF651C13C4A700D2A73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEFEAF671C13C4A700D2A73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFEAF6C1C13C4A700D2A73A /* tinyWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tinyWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFEAF711C13C4A700D2A73A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BEFEAF731C13C4A700D2A73A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BEFEAF751C13C4A700D2A73A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		BEFEAF771C13C4A700D2A73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEFEAF791C13C4A700D2A73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFEAF891C13CE6D00D2A73A /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFEAF481C13C4A700D2A73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFEAF691C13C4A700D2A73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEFEAF421C13C4A700D2A73A = {
+			isa = PBXGroup;
+			children = (
+				BEFEAF4D1C13C4A700D2A73A /* tinyWatch */,
+				BEFEAF611C13C4A700D2A73A /* tinyWatch WatchKit App */,
+				BEFEAF701C13C4A700D2A73A /* tinyWatch WatchKit Extension */,
+				BEFEAF4C1C13C4A700D2A73A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFEAF4C1C13C4A700D2A73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAF4B1C13C4A700D2A73A /* tinyWatch.app */,
+				BEFEAF5D1C13C4A700D2A73A /* tinyWatch WatchKit App.app */,
+				BEFEAF6C1C13C4A700D2A73A /* tinyWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFEAF4D1C13C4A700D2A73A /* tinyWatch */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAF4E1C13C4A700D2A73A /* AppDelegate.swift */,
+				BEFEAF501C13C4A700D2A73A /* ViewController.swift */,
+				BEFEAF521C13C4A700D2A73A /* Main.storyboard */,
+				BEFEAF551C13C4A700D2A73A /* Assets.xcassets */,
+				BEFEAF571C13C4A700D2A73A /* LaunchScreen.storyboard */,
+				BEFEAF5A1C13C4A700D2A73A /* Info.plist */,
+			);
+			path = tinyWatch;
+			sourceTree = "<group>";
+		};
+		BEFEAF611C13C4A700D2A73A /* tinyWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAF621C13C4A700D2A73A /* Interface.storyboard */,
+				BEFEAF651C13C4A700D2A73A /* Assets.xcassets */,
+				BEFEAF671C13C4A700D2A73A /* Info.plist */,
+			);
+			path = "tinyWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		BEFEAF701C13C4A700D2A73A /* tinyWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAF891C13CE6D00D2A73A /* cross.png */,
+				BEFEAF711C13C4A700D2A73A /* InterfaceController.swift */,
+				BEFEAF731C13C4A700D2A73A /* ExtensionDelegate.swift */,
+				BEFEAF751C13C4A700D2A73A /* ComplicationController.swift */,
+				BEFEAF771C13C4A700D2A73A /* Assets.xcassets */,
+				BEFEAF791C13C4A700D2A73A /* Info.plist */,
+			);
+			path = "tinyWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFEAF4A1C13C4A700D2A73A /* tinyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFEAF841C13C4A700D2A73A /* Build configuration list for PBXNativeTarget "tinyWatch" */;
+			buildPhases = (
+				BEFEAF471C13C4A700D2A73A /* Sources */,
+				BEFEAF481C13C4A700D2A73A /* Frameworks */,
+				BEFEAF491C13C4A700D2A73A /* Resources */,
+				BEFEAF831C13C4A700D2A73A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFEAF601C13C4A700D2A73A /* PBXTargetDependency */,
+			);
+			name = tinyWatch;
+			productName = tinyWatch;
+			productReference = BEFEAF4B1C13C4A700D2A73A /* tinyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEFEAF5C1C13C4A700D2A73A /* tinyWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFEAF801C13C4A700D2A73A /* Build configuration list for PBXNativeTarget "tinyWatch WatchKit App" */;
+			buildPhases = (
+				BEFEAF5B1C13C4A700D2A73A /* Resources */,
+				BEFEAF7F1C13C4A700D2A73A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFEAF6F1C13C4A700D2A73A /* PBXTargetDependency */,
+			);
+			name = "tinyWatch WatchKit App";
+			productName = "tinyWatch WatchKit App";
+			productReference = BEFEAF5D1C13C4A700D2A73A /* tinyWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BEFEAF6B1C13C4A700D2A73A /* tinyWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFEAF7C1C13C4A700D2A73A /* Build configuration list for PBXNativeTarget "tinyWatch WatchKit Extension" */;
+			buildPhases = (
+				BEFEAF681C13C4A700D2A73A /* Sources */,
+				BEFEAF691C13C4A700D2A73A /* Frameworks */,
+				BEFEAF6A1C13C4A700D2A73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tinyWatch WatchKit Extension";
+			productName = "tinyWatch WatchKit Extension";
+			productReference = BEFEAF6C1C13C4A700D2A73A /* tinyWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFEAF431C13C4A700D2A73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Brent Zerbe";
+				TargetAttributes = {
+					BEFEAF4A1C13C4A700D2A73A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = R2A3X86W66;
+					};
+					BEFEAF5C1C13C4A700D2A73A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = R2A3X86W66;
+					};
+					BEFEAF6B1C13C4A700D2A73A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = R2A3X86W66;
+					};
+				};
+			};
+			buildConfigurationList = BEFEAF461C13C4A700D2A73A /* Build configuration list for PBXProject "tinyWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEFEAF421C13C4A700D2A73A;
+			productRefGroup = BEFEAF4C1C13C4A700D2A73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFEAF4A1C13C4A700D2A73A /* tinyWatch */,
+				BEFEAF5C1C13C4A700D2A73A /* tinyWatch WatchKit App */,
+				BEFEAF6B1C13C4A700D2A73A /* tinyWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFEAF491C13C4A700D2A73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFEAF591C13C4A700D2A73A /* LaunchScreen.storyboard in Resources */,
+				BEFEAF561C13C4A700D2A73A /* Assets.xcassets in Resources */,
+				BEFEAF541C13C4A700D2A73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFEAF5B1C13C4A700D2A73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFEAF661C13C4A700D2A73A /* Assets.xcassets in Resources */,
+				BEFEAF641C13C4A700D2A73A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFEAF6A1C13C4A700D2A73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFEAF8A1C13CE6D00D2A73A /* cross.png in Resources */,
+				BEFEAF781C13C4A700D2A73A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFEAF471C13C4A700D2A73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFEAF511C13C4A700D2A73A /* ViewController.swift in Sources */,
+				BEFEAF4F1C13C4A700D2A73A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFEAF681C13C4A700D2A73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFEAF741C13C4A700D2A73A /* ExtensionDelegate.swift in Sources */,
+				BEFEAF721C13C4A700D2A73A /* InterfaceController.swift in Sources */,
+				BEFEAF761C13C4A700D2A73A /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEFEAF601C13C4A700D2A73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEFEAF5C1C13C4A700D2A73A /* tinyWatch WatchKit App */;
+			targetProxy = BEFEAF5F1C13C4A700D2A73A /* PBXContainerItemProxy */;
+		};
+		BEFEAF6F1C13C4A700D2A73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEFEAF6B1C13C4A700D2A73A /* tinyWatch WatchKit Extension */;
+			targetProxy = BEFEAF6E1C13C4A700D2A73A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEFEAF521C13C4A700D2A73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFEAF531C13C4A700D2A73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFEAF571C13C4A700D2A73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFEAF581C13C4A700D2A73A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFEAF621C13C4A700D2A73A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFEAF631C13C4A700D2A73A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFEAF7A1C13C4A700D2A73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEFEAF7B1C13C4A700D2A73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFEAF7D1C13C4A700D2A73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "tinyWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.tinyWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BEFEAF7E1C13C4A700D2A73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "tinyWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.tinyWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BEFEAF811C13C4A700D2A73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = tinyWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "tinyWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.tinyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BEFEAF821C13C4A700D2A73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = tinyWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "tinyWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.tinyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BEFEAF851C13C4A700D2A73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinyWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.tinyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEFEAF861C13C4A700D2A73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinyWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.tinyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFEAF461C13C4A700D2A73A /* Build configuration list for PBXProject "tinyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFEAF7A1C13C4A700D2A73A /* Debug */,
+				BEFEAF7B1C13C4A700D2A73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFEAF7C1C13C4A700D2A73A /* Build configuration list for PBXNativeTarget "tinyWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFEAF7D1C13C4A700D2A73A /* Debug */,
+				BEFEAF7E1C13C4A700D2A73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEFEAF801C13C4A700D2A73A /* Build configuration list for PBXNativeTarget "tinyWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFEAF811C13C4A700D2A73A /* Debug */,
+				BEFEAF821C13C4A700D2A73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEFEAF841C13C4A700D2A73A /* Build configuration list for PBXNativeTarget "tinyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFEAF851C13C4A700D2A73A /* Debug */,
+				BEFEAF861C13C4A700D2A73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFEAF431C13C4A700D2A73A /* Project object */;
+}
